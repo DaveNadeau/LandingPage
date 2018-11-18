@@ -3,28 +3,45 @@
   display: grid;
   width: 100%;
   height: auto;
-
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/14/81/68582091b9a2934.jpg");
+  background-size: cover;
 }
 
 header{
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav{
   background-color: hsl(262, 100%, 49%, .8);
   color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
 }
 
 .nav-link{
   display: inline-block;
   order: 1;
+  /* margin: 0 5vw 0 5vw; */
+  padding: 2vh 10vw 2vh 10vw;
+}
+
+.nav-link:hover{
+  background-color: hsl(270, 79%, 26%, .8);
 }
 
 #header-img{
   display: block;
-  margin: auto;
+  margin: 10vh auto 1vh auto;
   width: 50%;
   order: 2;
 }
@@ -32,4 +49,9 @@ nav{
 #welcome{
   display: block;
   order: 3;
+}
+
+.Products, .News, .Contact{
+  height: 100vh;
+  padding-top: 12vh;
 }
