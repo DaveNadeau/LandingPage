@@ -1,0 +1,35 @@
+.root{
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  height: auto;
+
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav{
+  background-color: hsl(262, 100%, 49%, .8);
+  color: #ffffff;
+}
+
+.nav-link{
+  display: inline-block;
+  order: 1;
+}
+
+#header-img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  order: 2;
+}
+
+#welcome{
+  display: block;
+  order: 3;
+}
