@@ -3,7 +3,7 @@
   /* display: grid; */
   width: 100%;
   height: auto;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -11,7 +11,6 @@ header{
   flex-direction: column;
   text-align: center;
   height: 100vh;
-  font-family: 'Open Sans', sans-serif;
   background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/14/81/68582091b9a2934.jpg");
   background-size: cover;
 }
@@ -69,6 +68,22 @@ h1{
 }
 
 .Products, .News, .Contact{
+  /* display: flex; */
   height: 100vh;
   padding-top: 12vh;
+}
+
+.Products{
+  /* flex-direction: column; */
+}
+
+#video{
+  display: block;
+  float: right;
+  margin-top: 10vh;
+}
+
+#vidDescription{
+  font-size: 2em;
+  margin-top: 11vh;
 }
