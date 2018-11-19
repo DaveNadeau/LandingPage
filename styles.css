@@ -97,5 +97,10 @@ h1{
 }
 
 .inputEmail{
+  margin-top: 2em;
   text-align: center;
+}
+
+.fakeSpiel{
+  font-size: 1.5vw;
 }
