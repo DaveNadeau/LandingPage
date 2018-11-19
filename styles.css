@@ -81,15 +81,17 @@ h1{
   padding-bottom: 50vh;
 }
 
+.Promo{
+  margin-top: 15vh;
+}
+
 #video{
   display: block;
   float: right;
-  margin-top: 10vh;
 }
 
 #vidDescription{
   font-size: 2em;
-  margin-top: 13vh;
 }
 
 .Form{
@@ -97,10 +99,10 @@ h1{
 }
 
 .inputEmail{
-  margin-top: 2em;
+  margin-top: 4vh;
   text-align: center;
 }
 
 .fakeSpiel{
-  font-size: 1.5vw;
+  font-size: 2em;
 }
