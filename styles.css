@@ -73,7 +73,7 @@ h1{
 }
 
 /* for testing */
-.News, .Contact{
+.Contact{
   height: 100vh;
 }
 
@@ -90,9 +90,6 @@ h1{
   float: right;
 }
 
-#vidDescription{
-  font-size: 2em;
-}
 
 .Form{
   display: inline-block;
@@ -103,6 +100,17 @@ h1{
   text-align: center;
 }
 
-.fakeSpiel{
+
+article{
   font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 8vw;
+  }
+
+  article{
+    font-size: 1.2em;
+  }
 }
